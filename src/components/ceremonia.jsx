@@ -33,6 +33,10 @@ export default function Ceremonia() {
                     <span className="hora">06 : 45 pm</span>
                 </p>
 
+                <p className="invitado">
+                    <span className="">{invitado?.nombre}</span>
+                </p>
+
                 <p className="boletoss">
                     <span className="bole">Boletos:</span>
                     {/* <br /> */}
@@ -41,6 +45,7 @@ export default function Ceremonia() {
                     {/* <span>Niños: &nbsp;</span><span style={{ color: 'red' }}>{invitado?.boletosNiños}</span>
                  */}
                 </p>
+
                 <div className="ubicacion">
                     <span>Ubicación:</span>
                     <br />

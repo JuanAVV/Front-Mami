@@ -85,22 +85,35 @@
   left: 83px; /* baja otro escalón más y recargado aún más */
 }
 
+.invitado{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;       /* Centrado horizontal */
+  text-align: center;
+  padding: 9%;
+  font-size: 40px;
+  font-family: 'Great Vibes', cursive;
+  margin-top: -50px;
+
+}
+
 .boletoss{
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* recarga hacia la izquierda */
   text-align: center;
-  font-size: 40px;
+  font-size: 38px;
   font-family: 'Great Vibes', cursive;
+  margin-top: -20px;
 }
 
-.bole, .bole2 {
+.bole, .bole2{
   font-weight: bold;
   position: relative;
 }
 
 .bole {
-   margin-top: 30px;
+   margin-top: -20px;
    left: 80px; /* baja otro escalón más y recargado aún más */
 }
 
