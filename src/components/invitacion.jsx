@@ -24,7 +24,7 @@ export default function Invitacion() {
   const [mensaje, setMensaje] = useState('Muchas gracias por confirmar tu asistencia');
   const [modalNoAsistir, setModalNoAsistir] = useState(false);
   
-  const whatsMami = "525580220719";
+  const whatsMami = "525572733128";
   const mensajeWhats = `Hola, soy ${invitado?.nombre || "invitado"}. Quiero confirmar que asistiré a la fiesta de los 80 años de Esther. ¡Muchas gracias por la invitación, nos vemos pronto!`
 
 
