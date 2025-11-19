@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* Fondo principal */
+.invitacion-fondo {
+  background-image: url(/Fondo80.png); 
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+/* Contenedor del contenido */
+.invitacion-contenido {
+  text-align: center;
+  width: 100%;
+  max-width: 380px;
+  margin-top: 100px;
+}
+
+/* Nombres */
+.nombres {
+  margin-bottom: 0px;
+}
+
+.nombre {
+  font-size: 80px;
+  font-family: 'Great Vibes', cursive;
+  margin: 0;
+}
+
+.decoracion {
+  font-family: 'Great Vibes', cursive;
+  font-size: 45px;
+  margin: 4px 0;
+  font-weight: lighter;
+}
+
+/* Mensaje */
+.mensaje {
+  text-align:  center; 
+  font-size: 38px;
+  margin-top: 160px !important;
+  font-family: 'Great Vibes', cursive;
+  margin: 0px;
+}
+
+.fecha {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-weight: bold;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* recarga hacia la izquierda */
+}
+
+.dia, .mes, .anio {
+  font-weight: bold;
+  font-size: 28px;
+  position: relative;
+}
+
+/* Ajustamos cada "escalón" con un desplazamiento */
+.dia {
+  left: 20px;  /* empieza a la izquierda */
+}
+.mes {
+  margin-top: -10px;
+  left: 40px; /* baja un escalón y recargado un poco a la derecha */
+}
+.anio {
+  margin-top: -10px;
+  left: 160px; /* baja otro escalón más y recargado aún más */
+}
+
+
+:root {
+  --peach-fill: #f7c9b8;
+  --peach-border: #e58971;
+  --text-brown: #7a3d2b;
+  --radius: 18px;
+  --font-serif: "Playfair Display", "Times New Roman", serif;
+}
+
+
+/* Botón Ceremonia/Salón */
+.ant-btn.inv-ceremony {
+  background: var(--peach-fill) !important;
+  border: 4px solid var(--peach-border) !important;
+  color: var(--text-brown) !important;
+  min-width: auto;
+  min-height: 56px;
+  font-size: 20px;
+  font-family: var(--font-serif);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 6px 18px rgba(122, 61, 43, 0.08);
+  transition: all 0.15s ease !important;
+  text-align: center;
+}
+
+/* Hover */
+.ant-btn.inv-ceremony:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 26px rgba(122, 61, 43, 0.12);
+}
+
+/* Active */
+.ant-btn.inv-ceremony:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(122, 61, 43, 0.06);
+}
+
+.botones-asistir {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.mensaje-confirmar{
+  text-align:  center;    
+  font-size: 30px;
+  font-family: 'MonteCarlo';
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+
+.titulo-modal{
+  text-align:  center;    
+  font-size: 40px;
+  font-family: 'MonteCarlo';
+}
+
+/* Efecto de brillo del modal */
+.modal-brillante .ant-modal-content {
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(255, 136, 0, 0.7) !important;
+  animation: brillo 1.5s infinite alternate;
+}
+
+@keyframes brillo {
+  from { box-shadow: 0 0 20px rgb(243, 188, 61) !important; }
+  to   { box-shadow: 0 0 40px rgb(246, 208, 121) !important; }
+}
+
+.modal-confirmado{
+  text-align:  center;    
+  font-size: 36px;
+  font-family: 'MonteCarlo';
+}

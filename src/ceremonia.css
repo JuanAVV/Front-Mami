@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.ceremonia-fondo {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #e58971;
+  text-align: center;
+  padding: 0;
+  /* Imagen con overlay negro translúcido */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/FondoCeremonia.png);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+
+.titulo {
+  width: 100%;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+}
+
+
+
+/* Encabezado con flexbox: botón izquierda, texto centrado */
+.encabezado {
+  display: flex;
+  align-items: center;        /* centra verticalmente el texto con el botón */
+  justify-content: center;    /* centra todo el bloque */
+  position: relative;
+  font-family: 'Great Vibes', cursive;
+}
+
+.boton-regresar {
+  position: absolute;
+  left: 0px;                /* margen desde el borde izquierdo */
+  background: none;
+  border: none;
+  color: #e58971 !important;
+  scale: 2;
+  cursor: pointer;
+}
+.boton-regresar{
+   background: transparent !important;
+}
+
+.text {
+  font-size: 40px;
+  font-family: 'Great Vibes', cursive;
+}
+
+.text2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* recarga hacia la izquierda */
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Great Vibes', cursive;
+}
+
+.salon, .ceremonia1, .ceremonia2, .hora {
+  font-weight: bold;
+  position: relative;
+}
+
+/* Ajustamos cada "escalón" con un desplazamiento */
+.salon {
+  left: 240px;  /* empieza a la izquierda */
+}
+.ceremonia1 {
+  margin-top: 20px;
+  left: 50px; /* baja un escalón y recargado un poco a la derecha */
+}
+.ceremonia2 {
+  margin-top: -20px;
+  left: 128px; /* baja un escalón y recargado un poco a la derecha */
+}
+.hora {
+   margin-top: -10px;
+  left: 83px; /* baja otro escalón más y recargado aún más */
+}
+
+.boletoss{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* recarga hacia la izquierda */
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Great Vibes', cursive;
+}
+
+.bole, .bole2 {
+  font-weight: bold;
+  position: relative;
+}
+
+.bole {
+   margin-top: 30px;
+   left: 80px; /* baja otro escalón más y recargado aún más */
+}
+
+.bole2 {
+   margin-top: -20px;
+   left: 130px;
+   color: red; /* baja otro escalón más y recargado aún más */
+}
+
+.ubicacion{
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: #e58971 !important;
+  opacity: 0.9;
+  background: rgba(0, 0, 0, 0.4); /* fondo negro translúcido */
+  padding: 15px 25px;
+  border-radius: 15px;
+  margin-bottom: 0px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); /* sutil sombra */
+}
+
+.link-mapa {
+  display: inline-block;
+  margin-top: 8px;
+  color: #f4c57e !important; /* tono cálido elegante */
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-decoration: underline;
+}
+
+.link-mapa:hover {
+  color: #e58971 !important;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}

@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400..700&family=Fleur+De+Leah&family=MonteCarlo&display=swap');
+
+
+#root {
+  margin: 0 auto;
+  min-width: 100%;
+  min-height: 100vh;
+  /*max-width: 1280px;
+  padding: 2rem;
+  text-align: center;*/
+}
+
+.footerTemplate{
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#divInvitacion{
+
+  /* background: url(/src/assets/img/topFlowers.png);
+  background-size: 100px 80px;
+  background-repeat: no-repeat; */
+
+  /* height: 100%;
+  background: url(/src/assets/img/topFlowers.png) left top no-repeat; */
+
+  /* background: url(/src/assets/img/petalosAzulesRosasArriba.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+#divInvitacionDos{
+  /* background: url(/src/assets/img/petalosAzulesRosas.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+
+.roboto{
+  font-family: 'Merienda';
+  font-size: 2vh;
+}
+
+.robotoMini{
+  font-family: 'Merienda';
+  font-size: 1.5vh;
+  z-index: 2;
+  background-color: #d9eff985;
+}
+.robotoMiniDos{
+  font-family: 'Merienda';
+  font-size: 1.3vh;
+}
+
+.robotoDos{
+  font-family: 'Merienda';
+  color: #3081d1;
+  font-size: 2vh;
+}
+
+.cursiva{
+  font-family: 'Playwrite AU NSW';
+  font-size: 5vh;
+  color: #3081d1;
+} 
+
+.divsFiesta{
+  /* width: 980px;
+  height: 587px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  min-width: 980px;
+  text-align: center; */
+  background-color: aquamarine;
+  padding-left: 25vw;
+  padding-right: 25vw;
+  padding-bottom: 50px;
+
+  /* background: url(/src/assets/img/esposos.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.letraNombres{
+  /* font-family: 'Fleur De Leah'; */
+  font-family: 'MonteCarlo';
+  font-size: 6em;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+.letraAnd{
+  font-family: 'MonteCarlo';
+  font-size: 5em;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.letraAnuncio{
+  font-family: 'Baskervville SC';
+  font-size: 2em;
+  color: #817a68;
+  font-style: normal;
+}
+.letraDias{
+  font-family: 'Baskervville SC';
+  font-size: 1.2em;
+  color: #817a68;
+  font-style: normal;
+}
+
+.letraFecha{
+  font-family: 'Baskervville SC';
+  font-size: 3em;
+  color: #817a68;
+  font-style: normal;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .divsFiesta{
+    /* width: 980px;
+    height: 587px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    min-width: 980px;
+    text-align: center; */
+    background-color: blue;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .divsFiesta{
+    /* width: 980px;
+    height: 587px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    min-width: 980px;
+    text-align: center; */
+    background-color: red;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+}
+
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+}
